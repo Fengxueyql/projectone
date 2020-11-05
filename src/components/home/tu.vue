@@ -18,7 +18,7 @@
       <!--第三部分---->
     </div>
     <div class="box2">
-      <div class="box3">
+      <div class="box3">     
         <el-table :data="tableData" stripe style="width: 100%">
           <el-table-column prop="num" label="order-no" height="25" width="180">
           </el-table-column>

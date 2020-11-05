@@ -31,6 +31,8 @@
       <el-form-item label="作者" prop="author" >
         <el-input v-model="ruleForm.author" class="box5"></el-input>
       </el-form-item></el-form></div>
+
+      
        <!---类目部分---->
     <div>
     <el-select v-model="ruleForm.category" clearable placeholder="请选择科目">
