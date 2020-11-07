@@ -1,5 +1,5 @@
 <template>
-  <div>退出页面</div>
+  <div><button @click='quit'>退出页面</button></div>
 </template>
 
 <script>
@@ -11,7 +11,11 @@ export default {
     }
   },
   components: {},
-  methods: {},
+  methods: {
+    quit(){
+       this.$router.push('/login')
+    }
+  },
   mounted() {},
   computed: {},
   watch: {}

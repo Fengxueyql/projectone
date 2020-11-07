@@ -8,6 +8,8 @@ import VCharts from 'v-charts'
 import mavonEditor from 'mavon-editor'
 import 'mavon-editor/dist/css/index.css'
 
+import JsonExcel from "vue-json-excel";
+
 
 
 
@@ -18,7 +20,9 @@ import 'mavon-editor/dist/css/index.css'
 Vue.config.productionTip = false
 Vue.use(ElementUI);
 Vue.use(VCharts);
- Vue.use(mavonEditor)
+Vue.use(mavonEditor)
+    /*exceal*/
+Vue.component("download-excel", JsonExcel)
 
 
 

@@ -70,5 +70,6 @@ export default {
 <style lang="scss">
 .menu {
     height: 100%;
+    
 }
 </style>

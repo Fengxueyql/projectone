@@ -39,7 +39,7 @@
     <el-option
       v-for="item in option"
       :key="item.value"
-      :label="item.label"
+      :label="科目"
       :value="item.value">
     </el-option>
   </el-select>
@@ -49,7 +49,7 @@
     <el-option
       v-for="item in options"
       :key="item.value"
-      :label="item.label"
+      :label="来源"
       :value="item.value">
     </el-option>
   </el-select>
@@ -196,7 +196,7 @@ export default {
             localStorage.setItem("user", JSON.stringify(res.data.data[0]));
             this.$message.success(res.data.data);
             }
-             this.$refs.ruleForm.resetFields()
+            /* this.$refs.ruleForm.resetFields()*/
          })
          
 
